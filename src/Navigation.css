@@ -1,0 +1,51 @@
+.wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  height: 8%;
+  background-color: var(--primary-color);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.nav-logo {
+  margin-left: 1%;
+  height: 75%;
+}
+
+.user-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  color: #f0f0f5;
+}
+.currency {
+  font-size: 12px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 3rem;
+  margin-left: auto;
+  align-items: center;
+  margin-right: 5%;
+  color: #f0f0f5;
+}
+li {
+  list-style: none;
+  cursor: pointer;
+}
+
+.content {
+  border: 2px solid red;
+  flex-grow: 1;
+}
+
+a {
+  text-decoration: none;
+  color: #f0f0f5;
+}
